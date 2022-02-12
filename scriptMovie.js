@@ -9,6 +9,7 @@ function cariMovie() {
       s: $("#searchinput").val(),
     },
     success: function (hasil) {
+      //test if
       if (hasil.Response.toLowerCase() == "true") {
         let movies = hasil.Search;
         console.log(movies);
